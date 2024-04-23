@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: black;
+}
+
+header .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.banner {
+  width: 100%;
+  border: 2px;
+}
+.banner img {
+  width: 100%;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: none;
+}
+
+.botao1,
+.botao2,
+.botao3,
+.botao4 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 20px;
+}
+
+.botao1 img,
+.botao2 img,
+.botao3 img,
+.botao4 img {
+  width: 100%;
+}
+
+.film1,
+.film2,
+.film3,
+.film4,
+.film5,
+.film6 {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.film1 img,
+.film2 img,
+.film3 img,
+.film4 img,
+.film5 img,
+.film6 img {
+  width: 100%;
+}
+
+.film4 {
+  margin-top: 40px;
+}
+
+.film5 {
+  margin-top: 40px;
+}
+
+.film6 {
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.secao2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: none;
+}
+
+footer {
+  background-color: black;
+  height: 25%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 20px;
+}
+
+.img1,
+.img2,
+.img3 {
+  margin: 10px;
+  justify-content: flex-end;
+}
